@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    background: blue;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 120px;
+    
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones:*/
+    [class^="col-"] {
+        width: 100%;
+    } 
+}
+
+.botton{
+    text-align: center;
+    height:40px;
+    width:120px;
+    background: green;
+    color: #fff;
+    line-height: 30px;
+    font-family: cursive;
+    
+}
+
+.botton:hover{
+    cursor: pointer;
+    color: #000;
+}
+
+
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+    font-size: 30px;
+    text-align: center;
+    background: gold;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  font-size: 30px;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.rate{
+    font-family: fantasy;
+}
+
+.myphoto{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    font-size:100px;
+    font-family: Arial;
+    font-weight: 900;
+    color:#000;
+    line-height:200px;
+    text-align:center;
+    background:#ffce00;
+}
+
+
+.profile{
+    font-size: 20px;
+    line-height: 50px;
+    margin: 20px 20px 20px 20px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu2 h1{
+    font-family:fantasy
+}
+
+.myprofile{
+    background: lightgreen
+}
+
+#menu2{
+    background: orange
+}
+
+#menu1{
+    font-size: 15px;
+    background: yellow
+}
+
+body{
+    padding: 70px;
+    position:relative;
+}
+
+.botton2 {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: red;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.botton2:hover{
+    cursor: pointer;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
